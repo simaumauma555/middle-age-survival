@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.75;
   color: #333;
@@ -18,12 +18,55 @@ body {
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 7px #0075c2;/*左線*/
+}
+
+h3 {
+  display:inline;
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  font-size: 20px;
+}
+
+.fa-check{
+  color: #7fff7f;
+  font-weight: bold;
+}
+
+.checklist{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.author-bio{
+  font-size: 13px;
+}
+
+.author-bio2{
+  font-size: 15px;
+}
+
 a {
   color: #97266d;
 }
 
 a:hover {
   color: #702459;
+}
+
+.box{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px #5b8bd0;/*点線*/
+  width:fit-content;
 }
 
 code {

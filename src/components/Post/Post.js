@@ -48,7 +48,7 @@ const Post = ({ post, allCategories }) => {
       </div>
 
       <div className="mt-10">
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        {/* <Comments postSlug={slug} postTitle={post.frontmatter.title} /> 記事下部のコメントを削除 */}
       </div>
     </AntContent>
   )

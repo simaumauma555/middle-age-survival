@@ -1,7 +1,7 @@
 module.exports = {
   url: 'https://gatsby-starter-blog-and-cv.netlify.app',
   pathPrefix: '/',
-  title: 'Blog by Marat Dospolov',
+  title: 'アラフォーサラリーマンの生きる道',
   keywords:
     'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
   subtitle: 'Developer. Optimizer. Learner.',
@@ -11,18 +11,18 @@ module.exports = {
   googleAnalyticsId: 'UA-6589522-7',
   menu: [
     {
-      label: 'Blog',
+      label: 'All Articles',
       path: '/'
     },
     {
-      label: 'CV',
+      label: 'Archive',
       path: '/cv'
     }
   ],
   author: {
-    name: 'Marat Dospolov',
-    photo: '/photo.jpg',
-    bio: 'Developer. Optimizer. Learner.',
+    name: '管理人：えいと',
+    photo: '/auther-pic.JPG',
+    bio: '',
     contacts: {
       // don't remove fields, just make them empty string ''
       // https://github.com/gatsbyjs/gatsby/issues/2392

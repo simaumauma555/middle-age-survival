@@ -30,7 +30,7 @@ const IndexTemplate = ({ data, pageContext }) => {
     <Layout title={pageTitle} description={siteSubtitle} keywords={keywords}>
       <Sidebar />
       <Page>
-        <FeaturedProducts />
+        {/* <FeaturedProducts /> */}
         <Feed
           edges={edges
             .filter(edge => edge?.node?.frontmatter?.priority)
