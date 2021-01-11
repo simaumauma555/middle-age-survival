@@ -103,6 +103,12 @@ const Layout = ({ children }) => (
             width:fit-content;
           }
 
+          .centered-link{
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+          }
+
           ${headroom}
         `}
       />
