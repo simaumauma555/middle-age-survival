@@ -19,7 +19,7 @@ const Blog = ({ data }) => {
           title={node.frontmatter.title}
           date={node.frontmatter.date}
           tags={node.frontmatter.tags}
-          excerpt={node.excerpt}
+          // excerpt={node.excerpt} サムネイル下の出だし文章を削除（日本語だと表示されないため。）
         />
       ))}
     </Layout>

@@ -1,6 +1,6 @@
 ---
 path: "/post-eight"
-cover: "../2018-10-16/speed.jpg"
+cover: "./thumbnail.jpg"
 date: "2020-01-10"
 title: "英語を学ぶと年収が増えるか？"
 tags: ['English', 'income']

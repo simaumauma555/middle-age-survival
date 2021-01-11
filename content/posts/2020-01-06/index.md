@@ -1,6 +1,6 @@
 ---
 path: "/post-seven"
-cover: "../2018-10-16/speed.jpg"
+cover: "./thumbnail.jpg"
 date: "2020-01-06"
 title: "現代のアラフォー会社員が置かれている状況"
 tags: ['introduction', 'middle-age']
