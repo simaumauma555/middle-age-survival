@@ -109,6 +109,11 @@ const Layout = ({ children }) => (
             margin: 0 auto;
           }
 
+          .stressed-line{
+            background: linear-gradient(transparent 70%,#ffff7a 60%);
+            font-weight: bold; 
+          }
+
           ${headroom}
         `}
       />
