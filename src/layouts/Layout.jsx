@@ -58,12 +58,13 @@ const Layout = ({ children }) => (
             font-size: 30px;
           }
 
+
           h2{
-            font-size: 25px;
-            padding: 0.25em 0.5em;/*上下 左右の余白*/
+            padding: 0.5em;/*文字周りの余白*/
             color: #494949;/*文字色*/
-            background: transparent;/*背景透明に*/
-            border-left: solid 7px #0075c2;/*左線*/
+            background: #f5f5f5;/*背景色*/
+            border-left: solid 5px #0075c2;/*左線（実線 太さ 色）*/
+            width:100%;
           }
           
           h3 {
