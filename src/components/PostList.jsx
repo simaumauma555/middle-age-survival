@@ -101,7 +101,7 @@ const Info = styled.div`
   left: 0;
 `;
 
-const Title = styled.h2`
+const Title = styled.p`
   margin-bottom: 0.6rem;
 `;
 
@@ -114,7 +114,7 @@ const PostList = ({ cover, path, date, title, excerpt }) => (
       <Info>
         <span>{date}</span>
         <Title>{title}</Title>
-        <span>{excerpt}</span>
+        {/* <span>{excerpt}</span> */}
       </Info>
     </StyledLink>
   </Wrapper>

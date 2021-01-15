@@ -10,21 +10,23 @@ const Wrapper = styled.div`
     letter-spacing: -0.003em;
     --baseline-multiplier: 0.179;
     --x-height-multiplier: 0.35;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 2;
     code {
       padding: 0.2rem 0.5rem;
       margin: 0.5rem 0;
     }
   }
-  div.box li, a {
-    font-size: 15px;
+  div.box li, a, ol {
+    font-size: 17px;
     margin-bottom: 2px;
     margin-top: 2px;
   } 
   div.box h4{
     margin-bottom: 2px;
     font-weight: bold;
+    background: none;
+    font-size: 20px;
   }
 
   a:not(.gatsby-resp-image-link):not(.anchor) {
@@ -68,7 +70,7 @@ const Wrapper = styled.div`
     }
   }
   .checklist{
-    font-size: 25px;
+    font-size: 20px;
   }
 `;
 

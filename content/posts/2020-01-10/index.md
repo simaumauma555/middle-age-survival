@@ -1,5 +1,5 @@
 ---
-path: "/post-eight"
+path: "/post-two"
 cover: "./thumbnail.jpg"
 date: "2020-01-10"
 title: "英語を学ぶと年収が増えるか？"

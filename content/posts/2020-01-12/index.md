@@ -1,5 +1,5 @@
 ---
-path: "/post-nine"
+path: "/post-three"
 cover: "./thumbnail.jpg"
 date: "2020-01-12"
 title: "日系大企業のメリット・デメリット。これからの身の処し方"

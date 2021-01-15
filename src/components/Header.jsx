@@ -49,7 +49,7 @@ const Header = ({ children, title, date, cover }) => (
     <Img fluid={cover || {} || [] || ''} />
     <Text>
       <h1>{title}</h1>
-      <h4>{date}</h4>
+      <h5>{date}</h5>
 
       {children && <Subtitle>{children}</Subtitle>}
     </Text>

@@ -68,12 +68,16 @@ const Layout = ({ children }) => (
           }
           
           h3 {
+            padding: 0.25em 0.5em;/*上下 左右の余白*/
+            color: #494949;/*文字色*/
+            background: transparent;/*背景透明に*/
+            border-left: solid 5px #0075c2;/*左線*/
+          }
+
+          h4{
             display:inline;
             background: linear-gradient(transparent 70%, #a7d6ff 70%);
             font-size: 25px;
-          }
-          h4{
-            
           }
           .post-date {
             text-align: right;

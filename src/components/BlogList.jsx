@@ -82,7 +82,7 @@ const Date = styled.div`
   color: ${props => props.theme.colors.black.lighter};
 `;
 
-const Title = styled.h1`
+const Title = styled.p`
   margin: 0;
 `;
 
