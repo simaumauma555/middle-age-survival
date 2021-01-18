@@ -17,17 +17,22 @@ const Wrapper = styled.div`
       margin: 0.5rem 0;
     }
   }
-  div.box li, a, ol {
-    font-size: 17px;
+  .box li, .box a, .box ol, .box p {
+    font-size: 13px;
     margin-bottom: 2px;
     margin-top: 2px;
   } 
-  div.box h4{
+  .box h4{
     margin-bottom: 2px;
     font-weight: bold;
     background: none;
     font-size: 20px;
   }
+  .box2 li, .box2 a, .box2 ol, .box2 p {
+    font-size: 13px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  } 
 
   a:not(.gatsby-resp-image-link):not(.anchor) {
     color: black;

@@ -84,7 +84,7 @@ const Layout = ({ children }) => (
           }
           .fa-check{
             color: #7fff7f;
-            font-size:25px;
+            font-size:20px;
           }
           
           .checklist{
@@ -107,6 +107,13 @@ const Layout = ({ children }) => (
             border: dashed 2px #5b8bd0;/*点線*/
             width:fit-content;
           }
+          .box2{
+            padding: 0.5em 1em;
+            margin: 2em 0;
+            background: #ffe5f2;
+            border: dashed 2px #ff7fbf;/*点線*/
+            width:fit-content;
+          }
 
           .centered-link{
             display: block;
@@ -116,6 +123,10 @@ const Layout = ({ children }) => (
 
           .stressed-line{
             background: linear-gradient(transparent 70%,#ffff7a 60%);
+            font-weight: bold; 
+          }
+          .stressed-line-red{
+            background: linear-gradient(transparent 70%,#ffa8a8 60%);
             font-weight: bold; 
           }
 
