@@ -86,6 +86,10 @@ const Layout = ({ children }) => (
             color: #7fff7f;
             font-size:20px;
           }
+          .fa-check-red{
+            color: #ff7f7f;
+            font-size:20px;
+          }
           
           .checklist{
             font-weight: bold;
