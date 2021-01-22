@@ -299,7 +299,7 @@ published: true
 
 <br />
 
-<p class="checklist"><i class="fa fa-check"></i> 短期的な価格の上下に影響されない</p>
+<p class="checklist"><i class="fa fa-check" ></i> 短期的な価格の上下に影響されない</p>
 
 
 長期間毎月購入するとなると、短期的なインデックスファンド価格の上がり下がりを気にする必要がありません。
