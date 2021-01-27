@@ -74,7 +74,7 @@ const Wrapper = styled.div`
       }
     }
   }
-  .checklist{
+  .checklist, .checklist-crossmark, .checklist-questionmark{
     font-size: 20px;
   }
 `;

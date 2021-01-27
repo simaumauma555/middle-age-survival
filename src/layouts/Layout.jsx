@@ -95,7 +95,17 @@ const Layout = ({ children }) => (
             font-weight: bold;
             // Font-size is defined in Content.jsx file.
           }
+
+          .checklist-crossmark{
+            font-weight: bold;
+            // Font-size is defined in Content.jsx file.
+          }
           
+          .checklist-questionmark{
+            font-weight: bold;
+            // Font-size is defined in Content.jsx file.
+          }
+
           .author-bio{
             font-size: 13px;
           }
@@ -133,6 +143,22 @@ const Layout = ({ children }) => (
             background: linear-gradient(transparent 70%,#ffa8a8 60%);
             font-weight: bold; 
           }
+          .chart-title{
+            text-align: center;
+            font-size: 15px;
+          }
+          th{
+            font-size: 15px;
+            width: 150px;
+            padding: 5px 10px;
+            text-align:center
+          }
+          td{
+            font-size: 13px;
+            width: 150px;
+            padding: 5px 10px;
+          }
+          
 
           ${headroom}
         `}
