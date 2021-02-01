@@ -133,7 +133,7 @@ Money Forward MEなどの家計簿アプリはクレジットカード会社や�
 
 <span class="centered-link">Money Forward MEアプリイメージ（[公式サイト](https://moneyforward.com/))</span>
 
-![money-forward](\money-forward.PNG)
+![money-forward](money-forward.PNG)
 
 <br />
 <br />
@@ -291,7 +291,7 @@ Money Forward MEなどの家計簿アプリはクレジットカード会社や�
 
     
 
-  ![amazon-card](\amazon-card.png)
+  ![amazon-card](amazon-card.png)
 
     
 <br />
@@ -317,7 +317,7 @@ Amazonでは、「Oki Dokiポイント 1ポイント＝3.5円」なので、還�
 注）年齢制限があり、申し込めるのが39歳までです。
 
 
-![jcb-w](\jcb-w.png)
+![jcb-w](jcb-w.png)
 
     
 <br />
@@ -351,7 +351,7 @@ Amazonでは、「Oki Dokiポイント 1ポイント＝3.5円」なので、還�
 
 <br />
 
-![rakuten-card](\rakuten-card.png)
+![rakuten-card](rakuten-card.png)
 
 <br />
 <br />
@@ -378,7 +378,7 @@ Amazonでは、「Oki Dokiポイント 1ポイント＝3.5円」なので、還�
 
   難点は年会費が無料でない（2200円）かかることですが、（個人的には）利便性を考えると払う価値があると思っています。
 
-![sorachika](\sorachika.png)
+![sorachika](sorachika.png)
 
 
 
