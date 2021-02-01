@@ -30,7 +30,7 @@ published: true
 
 
 
-![company-ranking](.\company-ranking.JPG)
+![company-ranking](company-ranking.JPG)
 
 <a href="https://job.career-tasu.jp/2021/guide/study/ranking/1_1.html" class="centered-link">2021年就職希望企業総合ランキング（キャリタス就活2021）</a>
 

@@ -40,7 +40,7 @@ published: true
 
 [総務省統計局の調査結果](https://www.stat.go.jp/data/roudou/topics/topi1230.html)によりますと、年間の転職者人数は約350万人（2019年）だそうです。
 
-![tenshoku-data](\tensyoku-data.jpg)
+![tenshoku-data](tensyoku-data.jpg)
 
 <br />
 <br />

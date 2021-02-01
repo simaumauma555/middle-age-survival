@@ -43,7 +43,7 @@ published: true
 
 <br />
 
-![asset-allocation](\asset-allocation.jpg)
+![asset-allocation](asset-allocation.jpg)
 
 <a href="https://www.boj.or.jp/statistics/sj/sjhiq.pdf" class="centered-link">[引用元] 家計の金融資産構成 - 資金循環の日米欧比較（日本銀行調査統計局）</a>
 
@@ -87,7 +87,7 @@ published: true
 
 
 
-![saving-low-yield-rate](\saving-low-yield-rate.png)
+![saving-low-yield-rate](saving-low-yield-rate.png)
 
 
 <br />
@@ -97,7 +97,7 @@ published: true
 
 もちろん、株式はREITなどのリスク資産は元本割れするリスクがありますが、長期的にみると預貯金に比べ高リターンが期待できます。
 
-![stock-yield-rate](\stock-yield-rate.JPG)
+![stock-yield-rate](stock-yield-rate.JPG)
 
 <a href="https://nextfunds.jp/semi/article37.html" class="centered-link">[引用元] 各資産クラスのこれまでのパフォーマンス</a>
 
@@ -379,13 +379,13 @@ published: true
 
 <a href="https://www.rakuten-sec.co.jp/" style="font-size: 20px; margin-left: 40px;">楽天証券ホームページ</a>
 
-   ![Rakuten-shoken](\Rakuten-shoken.JPG)
+   ![Rakuten-shoken](Rakuten-shoken.JPG)
 
 <br />
 
 <a href="https://www.sbisec.co.jp/ETGate" style="font-size: 20px; margin-left: 40px;">SBI証券ホームページ</a>
    
-   ![SBI-shoken](\SBI-shoken.JPG)
+   ![SBI-shoken](SBI-shoken.JPG)
 
    
 
@@ -403,7 +403,7 @@ published: true
 
    例）楽天証券 モバイルアプリ（iSpeed）
 
-   ![tsumitate-rakuten](\tsumitate-rakuten.jpg)
+   ![tsumitate-rakuten](tsumitate-rakuten.jpg)
 
 
 

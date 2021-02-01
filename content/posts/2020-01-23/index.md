@@ -158,7 +158,7 @@ published: true
 <div class="chart-title">表① 国民年金と厚生年金の平均支給額 （引用元: <a href="https://www.nenkin.go.jp/oshirase/topics/2020/20200401.html">令和2年4月分からの年金額等について - 日本年金機構</a>）</div>
 
 
-![public-pension-payment](\public-pension-payment.JPG)
+![public-pension-payment](public-pension-payment.JPG)
 
 <br />
 <br />
@@ -176,7 +176,7 @@ published: true
 <br />
 <br />
 
-<img src="\pention-3-story2.jpg" alt="pention-3-story2"/>
+<img src="pention-3-story2.jpg" alt="pention-3-story2"/>
 <div class="chart-title" style="margin: 0 150px; text-align: left;">※退職金は厳密には年金制度ではないですがわかりやすさのため年金制度の3階に位置づけています。</div>
 
 <br />
@@ -254,7 +254,7 @@ published: true
 
 <br />
 
-<img src="\pention-3-story3.jpg" alt="pention-3-story3" style="zoom:50%;" />
+<img src="pention-3-story3.jpg" alt="pention-3-story3" style="zoom:50%;" />
 
 <br />
 <br />
@@ -284,7 +284,7 @@ published: true
 
 <br />
 
-<img src="\pension-curve.jpg" alt="pension-curve" />
+<img src="pension-curve.jpg" alt="pension-curve" />
 
 <br />
 <br />
@@ -441,7 +441,7 @@ published: true
 
 <br />
 
-<img src="\pention-matrix.jpg" alt="pention-matrix" />
+<img src="pention-matrix.jpg" alt="pention-matrix" />
 
 
 <br />
@@ -467,14 +467,14 @@ published: true
 <br />
 <br />
 
-<img src="\pention-matrix2.jpg" alt="pention-matrix2" />
+<img src="pention-matrix2.jpg" alt="pention-matrix2" />
 
 
 <br />
 <br />
 
 
-<img src="\pension-curve.jpg" alt="pension-curve" />
+<img src="pension-curve.jpg" alt="pension-curve" />
 
 <div class="chart-title">勤続年数に対する退職一時金支給額のイメージ</div>
 
@@ -497,7 +497,7 @@ published: true
 <br />
 
 
-<img src="\pention-matrix3.jpg" alt="pention-matrix3" />
+<img src="pention-matrix3.jpg" alt="pention-matrix3" />
 
 
 <br />
@@ -525,7 +525,7 @@ published: true
 <br />
 <br />
 
-<img src="\pention-matrix4.jpg" alt="pention-matrix4" style="zoom:50%;" />
+<img src="pention-matrix4.jpg" alt="pention-matrix4" style="zoom:50%;" />
 
 
 <br />
