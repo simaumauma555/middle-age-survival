@@ -3,7 +3,7 @@ path: "/post-five"
 cover: "./thumbnail.jpg"
 date: "2020-01-17"
 title: "節約したいならクレジットカードを使おう"
-tags: ['節約','クレジットカード']
+tags: ['節約']
 published: true
 ---
 

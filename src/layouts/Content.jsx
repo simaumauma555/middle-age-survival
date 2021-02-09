@@ -35,7 +35,7 @@ const Wrapper = styled.div`
   } 
 
   a:not(.gatsby-resp-image-link):not(.anchor) {
-    color: black;
+    color: #4496d3;
     // box-shadow: inset 0 -2px 0 ${props => props.theme.colors.primary.base}; ハイパーリンクの水色下線をコメントアウト
     // border-bottom: 1px solid ${props => props.theme.colors.primary.base};　ハイパーリンクの水色下線をコメントアウト
     transition: ${props => props.theme.transitions.default.transition};

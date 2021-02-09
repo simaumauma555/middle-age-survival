@@ -2,8 +2,8 @@
 path: "/post-six"
 cover: "./thumbnail.jpg"
 date: "2020-01-21"
-title: "本当に転職をすべきか？"
-tags: ['転職']
+title: "その転職、本当にすべきですか？"
+tags: ['キャリア']
 published: true
 ---
 
@@ -220,7 +220,7 @@ published: true
 
 <br />
 
-<p class="checklist"><i class="fa fa-check"></i> 上司に相談し、別の職種・職場に異動させてもらう</p>
+<h4> 上司に相談し、別の職種・職場に異動させてもらう</h4>
 
   仕事内容に不満があるようでしたら、担当業務を変えてもらいましょう。
 
@@ -228,7 +228,7 @@ published: true
 
 <br />
 
-<p class="checklist"><i class="fa fa-check"></i> 社内募集等で他部門へ異動</p>
+<h4> 社内募集等で他部門へ異動</h4>
 
   その部門内では解決しないようでしたら、他部門へ社内募集で異動しましょう。
 
@@ -238,7 +238,7 @@ published: true
 
 <br />
 
-<p class="checklist"><i class="fa fa-check"></i> 副業を行う</p>
+<h4> 副業を行う</h4>
 
 
   副業を行い、新しい経験・スキルや視野を広げてみると違う景色が見えるかもしれません。
@@ -324,7 +324,13 @@ published: true
 
 ### 転職のメリット
 
-<p class="checklist"><i class="fa fa-check"></i> 視野が広がる</p>
+
+<br />
+<br />
+
+<h4> 視野が広がる</h4>
+
+
 
   一つの企業しか経験していないと、業務内容やプロセス、問題点が一般的なものなのかその企業独自であるのか、判断がつきません。
 
@@ -332,7 +338,7 @@ published: true
 
 <br />
 
-<p class="checklist"><i class="fa fa-check"></i> 企業への執着が減る</p>
+<h4> 企業への執着が減る</h4>
 
   １社に長く勤務していると、その企業は人生になくてはならないもののように感じますが、転職をすると特定の企業への執着が減ります。
 

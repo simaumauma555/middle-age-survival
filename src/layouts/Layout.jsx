@@ -74,11 +74,32 @@ const Layout = ({ children }) => (
             border-left: solid 5px #0075c2;/*左線*/
           }
 
-          h4{
-            display:inline;
-            background: linear-gradient(transparent 70%, #a7d6ff 70%);
-            font-size: 25px;
+          h4 {
+            position: relative;
+            padding-left: 25px;
+            font-size: 20px;
           }
+          h4:before {
+            position: absolute;
+            content: '';
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 0;
+            border: none;
+            border-left: solid 15px transparent;
+            border-bottom: solid 15px rgb(119, 195, 223);
+          }
+          h4:after {
+            position: absolute;
+            content: '';
+            bottom: -3px;
+            left: 10px;
+            width: 100%;
+            border-bottom: solid 3px rgb(119, 195, 223);
+          }
+
+
           .post-date {
             text-align: right;
           }
@@ -148,17 +169,20 @@ const Layout = ({ children }) => (
             font-size: 15px;
           }
           th{
-            font-size: 15px;
+            font-size: 12px;
             width: 150px;
             padding: 5px 10px;
             text-align:center
           }
           td{
-            font-size: 13px;
+            font-size: 12px;
             width: 150px;
             padding: 5px 10px;
           }
-          
+          .scroll-table {
+            overflow: auto;
+            white-space: nowrap;
+          }
 
           ${headroom}
         `}

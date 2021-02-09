@@ -3,7 +3,7 @@ path: "/post-four"
 cover: "./thumbnail.jpg"
 date: "2020-01-15"
 title: "グローバルなインデックスファンドに投資すべき理由"
-tags: ['投資']
+tags: ['資産運用']
 published: true
 ---
 

@@ -33,13 +33,15 @@ const Tag = ({ pageContext }) => {
     <Layout>
       <Helmet title={`${tagName} | ${config.siteTitle}`} />
       <Header title={upperTag}>
-        <StyledLink to="/tags">All Tags</StyledLink>
+        {/* <StyledLink to="/tags">All Tags</StyledLink> */}
       </Header>
       <Container>
         <Information>
           {posts.map((post, index) => (
             <Link key={index} to={post.frontmatter.path}>
-              <h3>{post.frontmatter.title}</h3>
+              <h2>{post.frontmatter.title}</h2>
+              {post.frontmatter.date}
+              
             </Link>
           ))}
         </Information>
