@@ -3,7 +3,7 @@ path: "/post-ten"
 cover: "./thumbnail.jpg"
 date: "2020-02-10"
 title: "英語リスニング力を劇的に向上する方法"
-tags: ['英語']
+tags: ['英語・海外']
 published: true
 ---
 

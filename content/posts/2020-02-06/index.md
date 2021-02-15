@@ -3,7 +3,7 @@ path: "/post-eight"
 cover: "./thumbnail.jpg"
 date: "2020-02-06"
 title: "英語学習のメリット・デメリット"
-tags: ['英語']
+tags: ['英語・海外']
 published: true
 ---
 

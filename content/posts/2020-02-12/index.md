@@ -3,7 +3,7 @@ path: "/post-eleven"
 cover: "./thumbnail.jpg"
 date: "2020-02-12"
 title: "【初心者向け】海外出張のコツ・注意点"
-tags: ['英語']
+tags: ['英語・海外']
 published: true
 ---
 

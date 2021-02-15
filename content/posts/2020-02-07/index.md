@@ -3,7 +3,7 @@ path: "/post-nine"
 cover: "./thumbnail.jpg"
 date: "2020-02-07"
 title: "【徹底解説】英語の聞き流しはリスニング力向上に効果あり？"
-tags: ['英語']
+tags: ['英語・海外']
 published: true
 ---
 

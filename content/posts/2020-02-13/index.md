@@ -3,7 +3,7 @@ path: "/post-twelve"
 cover: "./thumbnail.jpg"
 date: "2020-02-13"
 title: "【実践者が選ぶ】英語スピーキングの上達方法３選（初学者向け）"
-tags: ['英語']
+tags: ['英語・海外']
 published: true
 ---
 

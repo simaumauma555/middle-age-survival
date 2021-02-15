@@ -3,7 +3,7 @@ path: "/post-seven"
 cover: "./thumbnail.jpg"
 date: "2020-01-26"
 title: "転職すると退職金や年金は不利になる？"
-tags: ['キャリア', '資産運用']
+tags: ['キャリア', '資産形成']
 published: true
 ---
 
