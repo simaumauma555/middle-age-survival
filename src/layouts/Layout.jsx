@@ -149,6 +149,13 @@ const Layout = ({ children }) => (
             border: dashed 2px #ff7fbf;/*点線*/
             width:fit-content;
           }
+          .box-normal{
+            padding: 0.5em 1em;
+            margin: 2em 0;
+            background: #f0f7ff;
+            border: dashed 2px #5b8bd0;/*点線*/
+            width:fit-content;      
+          }
 
           .centered-link{
             display: block;

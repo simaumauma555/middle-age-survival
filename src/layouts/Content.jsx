@@ -33,6 +33,12 @@ const Wrapper = styled.div`
     margin-bottom: 2px;
     margin-top: 2px;
   } 
+  .box-normal li, .box-normal ol{
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: bold;    
+  }
 
   a:not(.gatsby-resp-image-link):not(.anchor) {
     color: #4496d3;
