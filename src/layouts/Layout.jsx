@@ -190,6 +190,15 @@ const Layout = ({ children }) => (
             overflow: auto;
             white-space: nowrap;
           }
+          .normal-table{
+            width: 50%;
+            white-space: nowrap;
+            table-layout: fixed;
+          }
+          // .normal-table th{
+          //   white-space: nowrap;
+          //   width: 100%;
+          // }
 
           ${headroom}
         `}
