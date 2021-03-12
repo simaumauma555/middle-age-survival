@@ -40,7 +40,7 @@ const Post = ({ data, pageContext }) => {
         <TagsBlock list={tags || []} />
       </Container>
       <SuggestionBar>
-        <PostSuggestion>
+        {/* <PostSuggestion>
           {prev && (
             <Link to={prev.frontmatter.path}>
               Previous
@@ -48,14 +48,14 @@ const Post = ({ data, pageContext }) => {
             </Link>
           )}
         </PostSuggestion>
-        <PostSuggestion>
+        {/* <PostSuggestion>
           {next && (
             <Link to={next.frontmatter.path}>
               Next
               <h3>{next.frontmatter.title}</h3>
             </Link>
           )}
-        </PostSuggestion>
+        </PostSuggestion> */} 
       </SuggestionBar>
     </Layout>
   );
