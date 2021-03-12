@@ -39,6 +39,12 @@ const Wrapper = styled.div`
     margin-top: 2px;
     font-weight: bold;    
   }
+  .toc li, .toc a, .toc ol, .toc p, .toc ul {
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  } 
+
 
   a:not(.gatsby-resp-image-link):not(.anchor) {
     color: #4496d3;

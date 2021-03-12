@@ -38,6 +38,7 @@ const NavBar = () => (
       <Link to="/tags/キャリア">キャリア</Link>
       <Link to="/tags/資産形成">資産形成</Link>
       <Link to="/about">About</Link>
+      {/* <Link to="/privacy-policy">プライバシーポリシー</Link> */}
     </Nav>
   </Headroom>
 );

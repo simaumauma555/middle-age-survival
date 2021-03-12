@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { Link } from 'gatsby';
 
 const Wrapper = styled.footer`
   position: relative;
@@ -12,6 +13,14 @@ const Wrapper = styled.footer`
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     padding-top: 7rem;
   }
+  a {
+    color: ${props => props.theme.colors.white.base};
+    margin-left: 2rem;
+    transition: all ${props => props.theme.transitions.default.duration};
+    &:hover {
+      color: ${props => props.theme.colors.white.grey};
+    }
+  }
 `;
 
 const Text = styled.div`
@@ -21,13 +30,12 @@ const Text = styled.div`
   color: ${props => props.theme.colors.white.light};
 `;
 
+
 const Footer = () => (
   <Wrapper>
     <Text>
-      <span>
-        Gatsby Tutorial Starter -{' '}
-        <a href="https://justinformentin.com">Justin Formentin</a>
-      </span>
+     <Link to="/privacy-policy">プライバシーポリシー</Link>
+     <Link to="/contact">お問い合わせ</Link>
     </Text>
   </Wrapper>
 );

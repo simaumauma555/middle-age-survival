@@ -6,6 +6,7 @@ import Helmet from 'react-helmet';
 import { Layout, Container } from 'layouts';
 import { Header } from 'components';
 import config from '../../config/site';
+import Img from 'gatsby-image';
 
 const StyledLink = styled(Link)`
   color: ${props => props.theme.colors.white.light};
@@ -24,6 +25,30 @@ const Information = styled.div`
     font-size: 2rem;
     margin-bottom: 1.25rem;
   }
+  h5 {
+      position: relative;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 25px;
+      color: #0075a9;
+      border-radius: 0 10px 10px 10px;
+      background: #d8ecf5;
+      margin-bottom: 3rem;
+    }
+  h5:before {
+      font-family: 'Font Awesome 5 Free';
+      font-size: 15px;
+      font-size: 1.5rem;
+      position: absolute;
+      top: -24px;
+      left: 0;
+      height: 24px;
+      padding: 0 1em;
+      content: 'Click!';
+      color: #fff;
+      border-radius: 10px 10px 0 0;
+      background: #0075a9;
+    }
 `;
 
 const Tag = ({ pageContext }) => {
@@ -39,9 +64,9 @@ const Tag = ({ pageContext }) => {
         <Information>
           {posts.map((post, index) => (
             <Link key={index} to={post.frontmatter.path}>
-              <h2>{post.frontmatter.title}</h2>
-              {post.frontmatter.date}
-              
+              <h5>{post.frontmatter.title}</h5>
+              {post.frontmatter.date}              
+              {post.frontmatter.cover}
             </Link>
           ))}
         </Information>
@@ -55,6 +80,6 @@ export default Tag;
 Tag.propTypes = {
   pageContext: PropTypes.shape({
     posts: PropTypes.array,
-    tagName: PropTypes.string,
+    tagName: PropTypes.string
   }),
 };

@@ -98,6 +98,10 @@ const Layout = ({ children }) => (
             width: 100%;
             border-bottom: solid 3px rgb(119, 195, 223);
           }
+          h6{
+            font-size: 25px;
+            font-weight: bold;
+          }
 
 
           .post-date {
@@ -199,6 +203,14 @@ const Layout = ({ children }) => (
           //   white-space: nowrap;
           //   width: 100%;
           // }
+        
+        .toc {
+            padding: 0.5em 1em;
+            margin: 2em 0;
+            border: double 5px #4ec4d3;
+            background-color: #f9ffff;
+            width: fit-content;
+        }
 
           ${headroom}
         `}

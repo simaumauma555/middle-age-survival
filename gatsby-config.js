@@ -5,6 +5,7 @@ module.exports = {
     ...config,
   },
   plugins: [
+    
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
@@ -27,6 +28,7 @@ module.exports = {
               linkImagesToOriginal: true,
             },
           },
+          `gatsby-remark-autolink-headers`,
           'gatsby-remark-prismjs',
         ],
       },
