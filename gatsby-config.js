@@ -5,7 +5,12 @@ module.exports = {
     ...config,
   },
   plugins: [
-    
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+          publisherId: `ca-pub-2529457405413169`
+      },
+  },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
@@ -63,5 +68,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    
   ],
 };
