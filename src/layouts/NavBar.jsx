@@ -25,6 +25,12 @@ const Nav = styled.nav`
       color: ${props => props.theme.colors.white.grey};
     }
   }
+  @media (max-width: ${props => props.theme.breakpoints.s}) {
+    font-size: 15px;
+    a{
+      margin-left: 0.5rem;
+    }
+  }
 `;
 
 const NavBar = () => (
@@ -33,11 +39,11 @@ const NavBar = () => (
       {/* <img src={logo} alt="Gatsby Logo" /> ##左上のロゴをコメントアウトで削除 */}
     </StyledLink>
     <Nav>
-      <Link to="/blog">All</Link>
-      <Link to="/tags/英語・海外">English/Global</Link>
-      <Link to="/tags/キャリア">Career</Link>
-      <Link to="/tags/資産形成">Investment</Link>
-      <Link to="/about">About</Link>
+      <Link to="/blog"><u>All Articles</u></Link>
+      <Link to="/tags/英語・海外"><u>English/Global</u></Link>
+      <Link to="/tags/キャリア"><u>Career</u></Link>
+      <Link to="/tags/資産形成"><u>Investment</u></Link>
+      <Link to="/about"><u>About</u></Link>
       {/* <Link to="/privacy-policy">プライバシーポリシー</Link> */}
     </Nav>
   </Headroom>
