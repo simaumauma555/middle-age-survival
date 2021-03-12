@@ -48,6 +48,8 @@ const Header = ({ children, title, date, cover }) => (
   <Wrapper>
     <Img fluid={cover || {} || [] || ''} />
     <Text>
+      <br />
+      <br />
       <h1>{title}</h1>
       <h5>{date}</h5>
 
