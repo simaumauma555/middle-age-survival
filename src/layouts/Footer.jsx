@@ -34,6 +34,7 @@ const Text = styled.div`
 const Footer = () => (
   <Wrapper>
     <Text>
+    　<Link to="/about">本サイトについて</Link> 
      <Link to="/privacy-policy">プライバシーポリシー</Link>
      <Link to="/contact">お問い合わせ</Link>
     </Text>

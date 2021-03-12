@@ -22,7 +22,7 @@ const ContactPage = center => (
       </select></label>
     </p> */}
     <p>
-      <label>メッセージ: <p><textarea name="message" cols="50" rows="7"></textarea></p></label>
+      <label>メッセージ: <p><textarea name="message" cols="30" rows="7"></textarea></p></label>
     </p>
     <p>
       <button type="submit">送信</button>

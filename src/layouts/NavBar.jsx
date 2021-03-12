@@ -39,12 +39,10 @@ const NavBar = () => (
       {/* <img src={logo} alt="Gatsby Logo" /> ##左上のロゴをコメントアウトで削除 */}
     </StyledLink>
     <Nav>
-      <Link to="/blog"><u>All Articles</u></Link>
-      <Link to="/tags/英語・海外"><u>English/Global</u></Link>
-      <Link to="/tags/キャリア"><u>Career</u></Link>
-      <Link to="/tags/資産形成"><u>Investment</u></Link>
-      <Link to="/about"><u>About</u></Link>
-      {/* <Link to="/privacy-policy">プライバシーポリシー</Link> */}
+      <Link to="/blog"><u>全記事</u></Link>
+      <Link to="/tags/英語・海外"><u>英語・海外</u></Link>
+      <Link to="/tags/キャリア"><u>キャリア</u></Link>
+      <Link to="/tags/資産形成"><u>資産形成</u></Link>
     </Nav>
   </Headroom>
 );
