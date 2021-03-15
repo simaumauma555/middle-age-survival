@@ -3,10 +3,13 @@ const config = require('./config/site');
 module.exports = {
   siteMetadata: {
     ...config,
+    siteUrl: `https://www.middle-age-survival.com/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
