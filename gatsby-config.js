@@ -8,6 +8,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
