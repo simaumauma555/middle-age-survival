@@ -7,17 +7,18 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-robots-txt',
     {
-      resolve: `gatsby-plugin-sitemap`,
+      resolve: 'gatsby-plugin-sitemap',
       options: {
-        output: `/sitemap.xml`
+        output: '/sitemap.xml'
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: `${__dirname}/content/posts`,
+        path: '${__dirname}/content/posts',
       },
     },
     'gatsby-transformer-sharp',
@@ -33,7 +34,7 @@ module.exports = {
               linkImagesToOriginal: true,
             },
           },
-          `gatsby-remark-autolink-headers`,
+          'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
         ],
       },
@@ -43,7 +44,7 @@ module.exports = {
       options: {
         autoLabel: process.env.NODE_ENV !== 'production',
         // eslint-disable-next-line
-        labelFormat: `[filename]--[local]`,
+        labelFormat: '[filename]--[local]',
       },
     },
     {
