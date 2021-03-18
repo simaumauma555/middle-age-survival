@@ -9,7 +9,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -65,6 +64,5 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    
   ],
 };
