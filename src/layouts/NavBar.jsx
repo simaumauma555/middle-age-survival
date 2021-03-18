@@ -39,6 +39,7 @@ const NavBar = () => (
       {/* <img src={logo} alt="Gatsby Logo" /> ##左上のロゴをコメントアウトで削除 */}
     </StyledLink>
     <Nav>
+      <Link to="/"><u>HOME</u></Link>
       {/* <Link to="/blog"><u>全記事</u></Link> */}
       {/* <Link to="/tags/英語・海外"><u>英語・海外</u></Link>
       <Link to="/tags/キャリア"><u>キャリア</u></Link>
