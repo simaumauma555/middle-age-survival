@@ -18,7 +18,7 @@ const Blog = ({ data }) => {
           path={node.frontmatter.path}
           title={node.frontmatter.title}
           date={node.frontmatter.date}
-          tags={node.frontmatter.tags}
+          // tags={node.frontmatter.tags}
           // excerpt={node.excerpt} サムネイル下の出だし文章を削除（日本語だと表示されないため。）
         />
       ))}
